@@ -28,6 +28,4 @@ cl ^
     "info_win32.cpp"^
     /link /INCREMENTAL:no ^
     /SUBSYSTEM:CONSOLE /MACHINE:X64 ^
-    kernel32.lib user32.lib gdi32.lib winmm.lib ^
-    Advapi32.lib wbemuuid.lib iphlpapi.lib ws2_32.lib ^
-    d3d12.lib dxgi.lib
+    kernel32.lib user32.lib gdi32.lib winmm.lib ws2_32.lib

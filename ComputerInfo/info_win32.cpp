@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../../GameEngine/utils/SystemInfo.h"
+#include "../../GameEngine/platform/win32/SystemInfo.h"
 
 int main(int, char*)
 {
