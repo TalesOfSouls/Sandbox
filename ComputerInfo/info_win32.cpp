@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-#include "../../GameEngine/platform/SystemInfo.h"
-
-#if _WIN32
-    #include "../../GameEngine/platform/win32/SystemInfo.cpp"
-#else
-    #include "../../GameEngine/platform/linux/SystemInfo.cpp"
-#endif
+#include "../../GameEngine/system/SystemInfo.cpp"
 
 int main(int, char*)
 {
