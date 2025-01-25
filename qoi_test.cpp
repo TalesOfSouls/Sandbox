@@ -10,13 +10,6 @@ You may use the constants QOI_SRGB or QOI_LINEAR. The colorspace is purely
 informative. It will be saved to the file header, but does not affect
 how chunks are en-/decoded. */
 
-enum DebugCounter {
-    DEBUG_COUNTER_DRIVE_READ,
-    DEBUG_COUNTER_DRIVE_WRITE,
-
-    DEBUG_COUNTER_SIZE,
-};
-
 #ifdef DEBUG
 #undef DEBUG
 #endif
