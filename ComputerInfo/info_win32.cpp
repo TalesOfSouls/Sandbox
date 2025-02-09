@@ -14,7 +14,7 @@ int main(int, char*)
 
     // The SystemInfo has a lot of additional space since we don't know how much is actually getting filled
     // It is very common for the string representation to be actually smaller than the reserved memory in SystemInfo
-    printf("Buffer size: %d, SystemInfo max size: %d\n", (int) strlen(buf), (int) sizeof(SystemInfo));
+    printf("Buffer size: %d, SystemInfo max size: %d\n", (int) str_length(buf), (int) sizeof(SystemInfo));
 
 	return 0;
 }
