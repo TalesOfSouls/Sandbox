@@ -8,3 +8,4 @@ bin/*
 *.exe
 *.map
 *.pdb
+*.o
