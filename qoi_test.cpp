@@ -376,8 +376,8 @@ void *qoi_read(const char *filename, qoi_desc *desc, int channels) {
 }
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "../GameEngine/image/stb_image.h"
-#include "../GameEngine/image/qoi.h"
+#include "../cOMS/image/stb_image.h"
+#include "../cOMS/image/qoi.h"
 
 int main(int argc, char* argv[])
 {
